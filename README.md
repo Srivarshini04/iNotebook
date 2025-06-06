@@ -37,7 +37,14 @@ iNotebook is a full-stack MERN (MongoDB, Express.js, React, Node.js) application
 
 ###  🛠️ Installation
 
-   1. Clone the repository
+1. Create a React App
+```bash
+npx create-react-app newsmonkey
+cd newsmonkey
+
+```
+
+2. Clone the repository
 ```bash
 git clone https://github.com/yourusername/iNotebook.git
 cd iNotebook
