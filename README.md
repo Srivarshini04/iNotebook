@@ -40,6 +40,7 @@ iNotebook is a full-stack MERN (MongoDB, Express.js, React, Node.js) application
 1. Create a React App
 ```bash
 npx create-react-app inotebook
+cd iNotebook
 
 ```
 
@@ -47,6 +48,11 @@ npx create-react-app inotebook
 ```bash
 git clone https://github.com/yourusername/iNotebook.git
 cd iNotebook
+
+```
+
+3.Run the App
+```bash
 npm run both
 
 ```
