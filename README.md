@@ -16,7 +16,7 @@ iNotebook is a full-stack MERN (MongoDB, Express.js, React, Node.js) application
 
 ---
 
-## Tech Stack
+## 🔧 Tech Stack
 
 - **Frontend:** React, React Router DOM, Bootstrap
 - **Backend:** Node.js, Express.js
@@ -35,14 +35,44 @@ iNotebook is a full-stack MERN (MongoDB, Express.js, React, Node.js) application
 
 ---
 
-### Installation
+###  🛠️ Installation
 
    1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/iNotebook.git
 cd iNotebook
+npm run both
 
----
-```bash
+```
 
-### api
+### 🧪 API ENDPOINTS (Backend)
+| Method | Route                      | Description        |
+| ------ | -------------------------- | ------------------ |
+| POST   | /api/auth/createuser       | Register new user  |
+| POST   | /api/auth/login            | Login user         |
+| POST   | /api/auth/getuser          | Get user details   |
+| GET    | /api/notes/fetchallnotes   | Get all user notes |
+| POST   | /api/notes/addnote         | Add new note       |
+| PUT    | /api/notes/updatenote/\:id | Update note        |
+| DELETE | /api/notes/deletenote/\:id | Delete note        |
+
+
+### 🌐 Deployment
+You can deploy the backend on platforms like Render, Railway, or Vercel (Serverless), and frontend using GitHub Pages, Netlify, or Vercel.
+
+
+### 🙋‍♀️ Author
+Srivarshini Komirishetty
+
+GitHub:https://github.com/Srivarshini04
+
+### ⭐️ Support
+
+If you found this project useful, consider starring ⭐ it on GitHub!
+
+
+
+
+
+
+
