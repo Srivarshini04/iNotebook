@@ -41,3 +41,7 @@ iNotebook is a full-stack MERN (MongoDB, Express.js, React, Node.js) application
 ```bash
 git clone https://github.com/yourusername/iNotebook.git
 cd iNotebook
+
+---
+
+### API Endpoints(Backend)
