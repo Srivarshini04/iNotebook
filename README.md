@@ -39,8 +39,7 @@ iNotebook is a full-stack MERN (MongoDB, Express.js, React, Node.js) application
 
 1. Create a React App
 ```bash
-npx create-react-app newsmonkey
-cd newsmonkey
+npx create-react-app inotebook
 
 ```
 
