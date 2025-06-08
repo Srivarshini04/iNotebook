@@ -28,8 +28,18 @@ const Signup = (props) => {
            {
             //Save the authtoken and redirect
             localStorage.setItem('token',json.authtoken);
-            props.showAlert("Account Created Successfully","success");
-            navigate("/");
+             // Now fetch user data
+              const userResponse = await fetch("http://localhost:5000/api/auth/getuser", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  "auth-token": json.authtoken,
+                },
+              });
+              const userData = await userResponse.json();
+              localStorage.setItem("username", userData.name); // Save name
+              props.showAlert("Account Created Successfully","success");
+              navigate("/");
             
            }
            else
